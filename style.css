@@ -7,6 +7,7 @@ body {
 article {
   text-align: center;
   color: white;
+  border-width: medium;
 }
 
 p {
@@ -24,12 +25,26 @@ h2 {
   color: white;
 }
 
+.navbar_btn {
+  background-color: white;
+  border-radius: 12px;
+  text-decoration: none;
+}
+
 .navbar {
   position: fixed;
   top: 0;
   right: 50px;
+  border-radius: 8px;
+  list-style: none;
+  margin: 1rem;
+  float: left;
 }
 
 .clickerbar {
   text-align: center;
+}
+
+ul {
+  list-style-type: none;
 }

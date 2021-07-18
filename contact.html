@@ -4,26 +4,72 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Contact Info</title>
+    <link rel="stylesheet" href="contact.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Contact</title>
   </head>
   <body>
-    <h1>How to Reach Us!</h1>
-    <h2>Contact Information</h2>
-    <nav>
-      <ul class="navbar">
-        <li><a href="index.html">Main Page</a></li>
-        <li><a href="about.html">About</a></li>
-      </ul>
-    </nav>
-    <article>
-      <p>
-        <ol>
-          <li>Contact #: 111-222-3333</li>
-          <li>Email: kouriccalhoun@gmail.com</li>
-          <li>Linknkledin: https://www.linkedin.com/in/kouric-calhoun/ </li>
-        </ol>
-      </p>
-    </article>
+    <section class="contact">
+      <div class="content">
+        <h2>Contact Donuts</h2>
+        <p>Hello, we would love it if you gave us feedback on our game!!!</p>
+      </div>
+      <div class="container">
+        <div class="contactInfo">
+          <div class="box">
+            <div class="icon">
+              <i class="fa fa-address-card" aria-hidden="true"></i>
+            </div>
+            <div class="text">
+              <h3>Address</h3>
+              <p>444 Donut Lane, <br />Akron,OH,<br />44311</p>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="icon">
+              <i class="fa fa-phone-square" aria-hidden="true"></i>
+            </div>
+            <div class="text">
+              <h3>Phone</h3>
+              <p>111-222-3333</p>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="icon">
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+            </div>
+            <div class="text">
+              <h3>Email</h3>
+              <p>Donuts@gmail.com</p>
+            </div>
+          </div>
+        </div>
+        <div class="contactForm">
+          <form>
+            <h2>Send Message</h2>
+            <div class="inputBox">
+              <input type="text" name="" required="required" />
+              <span>Full Name</span>
+            </div>
+            <div class="inputBox">
+              <input type="text" name="" required="required" />
+              <span>Email</span>
+            </div>
+            <div class="inputBox">
+              <textarea name="" id="" cols="30" rows="10"></textarea>
+              <span>Hello, Please Type Your Message!!!</span>
+            </div>
+            <div class="inputBox">
+              <input type="submit" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
